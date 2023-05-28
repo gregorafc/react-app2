@@ -40,3 +40,5 @@ jobs:
         run: npm ci
       - name: Run build
         run: npm run build
+      - name: Deploy app
+        run: echo "App is ready to go...."
